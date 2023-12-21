@@ -1,5 +1,8 @@
 # Meta-Sift: A PyTorch Implementation
-This is the artifacts evaluation of the USENIX'23 paper [Meta-Sift: How to Sift Out a Clean Subset in the Presence of Data Poisoning?]([https://arxiv.org/abs/2210.06516](https://www.usenix.org/system/files/usenixsecurity23-zeng.pdf))
+This is the artifacts evaluation of the USENIX'23 paper Meta-Sift: How to Sift Out a Clean Subset in the Presence of Data Poisoning?:
+
+https://www.usenix.org/system/files/usenixsecurity23-zeng.pdf
+
 This GitHub repo focuses on road mapping and reproduces the results to support the **three main claims** we developed in the "Meta-Sift" paper:
 1. Defense performance is sensitive to the purity of the
 base set (**Takeaway \#1 in Section 1**).
