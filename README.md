@@ -73,5 +73,44 @@ clean_idx = meta_sift(args, dataset, total_pick=1000)
 This is a standard Meta-Sift code block that can be plug in with any PyTorch standard dataset.
 Change the parameter in `args` and change the `dataset` as your poisoned dataset and run it, the return are at least `total_pick` clean sample indices from the `dataset`. You can use `torch.utils.data.Subset(dataset, clean_idx)` to get the base set dataset after siting.
 
+## References
+
+```bib
+@software{gitness,
+  title={Gitness is an Open Source developer platform with Source Control management, Continuous Integration and Continuous Delivery.},
+  author={Johannes Batzil, Enver Bisevac, Marko Gacesa, Abhinav Singh, Atefeh Mohseni Ejiyeh, Hitesh Aringa, ...},
+  license={Apache-2.0},
+  year={2023},
+  url={[https://github.com/harness/gitness](https://github.com/harness/gitness)}
+}
+
+@software{pytorch,
+  title={Tensors and Dynamic neural networks in Python with strong GPU acceleration},
+  author={Edward Z. Yang, Nikita Shulga, Richard Zou, ...},
+  year={2023},
+  url={[https://github.com/harness/gitness](https://github.com/pytorch/pytorch)}
+}
+
+@software{imageio,
+  title={Python library for reading and writing image data},
+  author={Almar Klein, Sebastian Wallkötter, Steven Silvester, Anthony Tanbakuchi, ...},
+  year={2023},
+  url={[https://github.com/imageio/imageio](https://github.com/imageio/imageio)},
+  license={BSD-2-Clause license}
+}
+```
+
+## Citation
+Please cite this work if you use it in your research project.
+
+```bib
+@inproceedings{zeng2023meta,
+  title={Meta-Sift: How to Sift Out a Clean Subset in the Presence of Data Poisoning?},
+  author={Zeng, Yi and Pan, Minzhou and Jahagirdar, Himanshu and Jin, Ming and Lyu, Lingjuan and Jia, Ruoxi},
+  booktitle={32nd USENIX Security Symposium (USENIX Security 23)},
+  pages={1667--1684},
+  year={2023}
+}
+```
 
 
