@@ -2,6 +2,7 @@ import argparse
 import torch
 from meta_sift import *
 
+# here is the main func
 def main(args):
     torch.cuda.set_device(args.gpu)
     set_seed(args.random_seed)
